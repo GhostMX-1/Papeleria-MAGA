@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelería MAGA - Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado / Menú -->
+    <header>
+        <div class="logo">🧸 Papelería MAGA</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo Escolar</a>
+            <a href="juguetes.html">Juguetes y Regalos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Bienvenida) -->
+    <section id="inicio" class="hero">
+        <h1>Todo para la escuela, juguetes y detalles especiales 🎁</h1>
+        <p>Encuentra material escolar, termos bonitos, peluches y sorpresas para toda ocasión.</p>
+        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+            <a href="catalogo.html" class="btn-principal">Ver Artículos Escolares</a>
+            <a href="juguetes.html" class="btn-principal" style="background-color: #e67e22;">Ver Juguetes y Regalos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Productos Destacados (Mixtos) -->
+    <section id="productos" class="catalogo">
+        <h2>Productos Destacados</h2>
+        
+        <div class="grid-productos">
+            <!-- Producto 1 -->
+            <div class="tarjeta-producto">
+                <div class="imagen-placeholder">📓</div>
+                <h3>Cuaderno Profesional Raya/Cuadro (Chico/Grande)</h3>
+                <p class="precio">$26.00 MXN</p>
+                <button class="btn-comprar" onclick="pedirPorWhatsApp('Cuaderno Profesional Raya/Cuadro (Chico/Grande)', 26)">Pedir por WhatsApp</button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="tarjeta-producto">
+                <div class="imagen-placeholder">🥤</div>
+                <h3>Termo Acero Inoxidable/Plastico</h3>
+                <p class="precio">$80.00 MXN</p>
+                <button class="btn-comprar" onclick="pedirPorWhatsApp('Termo Acero Inoxidable/Plastico (Dependiendo del material/tamaño varían los precios)', 80)">Pedir por WhatsApp</button>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="tarjeta-producto">
+                <div class="imagen-placeholder">🧸</div>
+                <h3>Peluche (Dependiendo del tamaño varía el precio)</h3>
+                <p class="precio">$170.00 MXN</p>
+                <button class="btn-comprar" onclick="pedirPorWhatsApp('Peluche (Dependiendo del tamaño varía el precio)', 170)">Pedir por WhatsApp</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>¿Dónde estamos?</h2>
+        <p>📍 Dirección: Calle Hortencia 8B</p>
+        <p>🕒 Horarios: Lunes a Domingo de 8:00/10:00 AM a 10:00 PM</p>
+        <p><strong>¡Contamos com servicio de apartado y pago al recoger en tienda! (Solo a pago en transferencia)</strong></p>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/4438616743?text=Hola,%20me%20interesa%20información%20sobre%20sus%20productos" class="whatsapp-flotante" target="_blank">
+        💬
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Papelería MAGA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

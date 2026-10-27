@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Escolar - Papelería & Regalos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado / Menú -->
+    <header>
+        <div class="logo">🧸 Papelería & Regalos</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo Escolar</a>
+            <a href="juguetes.html">Juguetes y Regalos</a>
+        </nav>
+    </header>
+
+    <!-- Sección del Catálogo Escolar -->
+    <section class="catalogo" style="padding-top: 40px;">
+        <div style="text-align: left; max-width: 1100px; margin: 0 auto 20px auto;">
+            <a href="index.html" class="btn-regresar">⬅ Volver al Inicio</a>
+        </div>
+
+        <h2>Catálogo de Artículos Escolares</h2>
+        <p style="color: #666; margin-bottom: 30px;">Explora todo el material escolar disponible y haz tu pedido directo al WhatsApp.</p>
+        
+        <!-- Los productos escolares se cargan automáticamente aquí -->
+        <div id="contenedor-productos" class="grid-productos"></div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/4438616743?text=Hola,%20me%20interesa%20información%20sobre%20sus%20productos" class="whatsapp-flotante" target="_blank">
+        💬
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Papelería MAGA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
