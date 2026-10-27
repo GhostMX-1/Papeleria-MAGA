@@ -8,7 +8,7 @@ const listaEscolar = [
     { nombre: "Mochila Escolar", precio: 350, icono: "🎒" },
     { nombre: "Papel china", precio: 2, icono: "📄" },
     { nombre: "Papel crepé", precio: 8, icono: "📄" },
-    { nombre: "Lapiceros punta Fina/Normal/Gruesa", precio: 7/6/7, icono: "✏️" },
+    { nombre: "Lapiceros punta Fina/Normal/Gruesa", precio: 7-6-7, icono: "✏️" },
     { nombre: "Pintura politec", precio: 17, icono: "🖌️" }
 ];
 
